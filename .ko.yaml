@@ -1,0 +1,8 @@
+builds:
+  - id: caddy
+    main: ./cmd/caddy
+    flags:
+      - -tags
+      - nobadger
+    ldflags:
+      - -w -s
